@@ -92,7 +92,12 @@ Visualizations were created to understand the data distribution. These visualiza
 ![image](https://github.com/user-attachments/assets/a88d5f40-b724-4e60-81f4-a33e24248e5f)
 ![image](https://github.com/user-attachments/assets/f6e7b2bc-d760-419f-9668-936f8009e84a)
 
-
+## Acknowledgments  
+- **WiDS Datathon** organizers and sponsors  
+- **Healthy Brain Network (HBN)** and **Reproducible Brain Charts (RBC)** for providing the dataset
+- **The Break Through Tech AI UCLA Team** (Shahani Waas, Nicole Feliciano, Sofia Lee) for support
+- **Our tutor, Rebecca Aurelia Dsouza,** for mentorship
+- **The National Break Through Tech AI Team** 
 ---
 
 
