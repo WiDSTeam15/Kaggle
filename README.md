@@ -1,4 +1,4 @@
-# WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
+# WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain, Sex Patterns in ADHD
 
 ## Team 
 This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
