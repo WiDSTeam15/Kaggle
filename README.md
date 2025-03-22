@@ -2,7 +2,8 @@
 
 ## Team 
 This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
-Team members: Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
+
+**Team members:** Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
 
 ## Overview  
 This repository contains our submission for the WiDS Datathon 2025, a global data science competition focused on advancing women's brain health research. The data utilized in this challenge was provided by the Healthy Brain Network and the Reproducible Brain Charts.  
