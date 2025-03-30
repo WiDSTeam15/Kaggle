@@ -4,6 +4,13 @@
 This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
 
 **Team members:** Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
+Louise Marie: Neural Networks and Read me 
+Souzen: Random Forest and Read me
+Zuleyka: Logistic Regression and Read me
+Min: Worked on Extreme Graident Boosting
+
+## Project Highlights
+The team tried the divide and conquor approaching trying four different machine learning models Neural Network, Random Forest, Logistic Regression and Extreme Graident Boosting to find the best model in predict the ADHD diagnosis and sex based on the data. Each model had the same data frames and it was up to each person's to hypertune their models. To address the imbalance dataset of sex and ADHD diagnosis random undersampling and random over sampling were used. Logistic Regression and Random Forest did not produce as great of results as such the focus shifted to Neural Networks. The data frame with random over sampling scored higher in accuracy when hypertuning the neural network data frame.
 
 ## Overview  
 This repository contains our submission for the WiDS Datathon 2025, a global data science competition focused on advancing women's brain health research. The data utilized in this challenge was provided by the Healthy Brain Network and the Reproducible Brain Charts.  
