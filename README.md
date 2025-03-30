@@ -4,10 +4,10 @@
 This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
 
 **Team members:** Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
-Louise Marie: was in charge on training and hypertuning Neural Networks models and helped developed the Read me file.
-Souzen: was in charge on training and hypertuning Random Forest models and Read me file
-Zuleyka: was in charge on training and hypertuning Logistic Regression models and Read me file
-Min: Worked on training and hypertuning Extreme Graident Boosting and Neural Network models
+- Louise Marie: was in charge on training and hypertuning Neural Networks models and helped developed the Read me file.
+- Souzen: was in charge on training and hypertuning Random Forest models and Read me file
+- Zuleyka: was in charge on training and hypertuning Logistic Regression models and Read me file
+- Min: Worked on training and hypertuning Extreme Graident Boosting and Neural Network models
 
 ## Project Highlights
 The team tried the divide and conquer approach, trying four different machine learning models Neural Network, Random Forest, Logistic Regression and Extreme Graident Boosting to find the best model in predict the ADHD diagnosis and sex based on the data. Each model had the same data frames and it was up to each person's to hypertune their models. To address the imbalance dataset of sex and ADHD diagnosis random undersampling and random over sampling were used. Logistic Regression and Random Forest did not produce as great of results based on the leaderboard scores and model evaulation scores as such the focus shifted to Neural Networks. The data frame with random over sampling scored higher in accuracy when hypertuning the neural network data frame.
