@@ -8,19 +8,19 @@ This project is part of the **Break Through Tech AI Program** (UCLA site), which
 ---
 
 ## Team 
-This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
+This team consists of 4 undergraduate students, all of whom are a part of the Break Through Tech 2024-2025 UCLA cohort.
 
 **Team members:** Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
-- Louise Marie: was in charge on training and hypertuning Neural Networks models and helped developed the Read me file.
-- Souzen: was in charge on training and hypertuning Random Forest models and Read me file
-- Zuleyka: was in charge on training and hypertuning Logistic Regression models and Read me file
-- Min: Worked on training and hypertuning Extreme Graident Boosting and Neural Network models
+- Louise Marie: was in charge of training and hypertuning Neural Networks models and helped develop the Read Me file.
+- Souzen: was in charge of training and hypertuning Random Forest models and Read Me file
+- Zuleyka: was in charge of training and hypertuning Logistic Regression models and Read Me file
+- Min: Worked on training and hypertuning Extreme Gradient Boosting and Neural Network models
 
 ## Project Highlights
-The team tried the divide and conquer approach, trying four different machine learning models Neural Network, Random Forest, Logistic Regression and Extreme Graident Boosting to find the best model in predict the ADHD diagnosis and sex based on the data. Each model had the same data frames and it was up to each person's to hypertune their models. To address the imbalance dataset of sex and ADHD diagnosis random undersampling and random over sampling were used. Logistic Regression and Random Forest did not produce as great of results based on the leaderboard scores and model evaulation scores as such the focus shifted to Neural Networks. The data frame with random over sampling scored higher in accuracy when hypertuning the neural network data frame.
+The team tried the divide and conquer approach, trying four different machine learning models, Neural Network, Random Forest, Logistic Regression, and Extreme Gradient Boosting, to find the best model for predicting ADHD diagnosis and sex based on the data. Each model had the same data frames, and it was up to each person to hyper tune their models. To address the imbalance dataset of sex and ADHD diagnosis, random undersampling and random over-sampling were used. Logistic Regression and Random Forest did not produce as great of results based on the leaderboard scores and model evaluation scores. As such, the focus shifted to Neural Networks. The data frame with random over-sampling scored higher in accuracy when hypertuning the neural network data frame.
 
 ## Setup and Execution 
-If you wish to run any of our models yourself, simply download the ipynb file of the corresponding model. You can run the file locally through Google Colab, Visual Studio, or your preferred IDE. You will need to have the necessary files downloaded as well which can be found in this Github Repo in the folder "Supplemental files."
+If you wish to run any of our models yourself, simply download the ipynb file of the corresponding model. You can run the file locally through Google Colab, Visual Studio, or your preferred IDE. You will need to have the necessary files downloaded as well, which can be found in this Github Repo in the "Supplemental files."
 
 ## Project Overview and Challenge Objective  
 The goal of this competition is to develop a **multi-outcome machine learning model** that predicts:  
@@ -37,7 +37,7 @@ By leveraging **AI and machine learning**, we aim to help:
 - Detect patterns to provide insights into **brain activity differences by sex**
 
 ## Dataset Overview
-The **WiDS Datathon 2025** provides data to predict **ADHD diagnosis** and **sex** of adolescents using a combination of **functional brain imaging data** and **sociodemographic, emotional, and parenting information**. This is significant since evidence suggests that ADHD can often go undiagnosed in girls, as they tend to exhibit more inattentive symptoms which are harder to detect.
+The **WiDS Datathon 2025** provides data to predict **ADHD diagnosis** and **sex** of adolescents using a combination of **functional brain imaging data** and **sociodemographic, emotional, and parenting information**. This is significant since evidence suggests that ADHD can often go undiagnosed in girls, as they tend to exhibit more inattentive symptoms, which are harder to detect.
 
 ---
 
@@ -84,6 +84,33 @@ The data exploration stages involved examining four separate datasets: **categor
 ### Handling Class Imbalance
 - **Random Over-Sampling**: Used to balance the ADHD and Sex labels by duplicating underrepresented examples.
 - **Random Under-Sampling**: Used to reduce the number of overrepresented examples for balanced datasets.
+
+
+---
+
+## Model Selection, Hyperparameter Tuning, and Training Approach
+
+### Model Selection
+We chose a neural network model due to its ability to capture complex patterns in the dataset, which is particularly useful for ADHD classification. Given the nature of the data, which likely includes nonlinear relationships, a neural network provides a more flexible approach compared to traditional machine learning models like logistic regression or decision trees.
+
+### Hyperparameter Tuning
+Hyperparameter tuning was conducted to optimize model performance while mitigating overfitting and underfitting. Key parameters adjusted included:
+
+- Number of Layers: We experimented with different architectures to balance model complexity and generalization.
+
+- Learning Rate: A lower learning rate helped stabilize training and prevent drastic weight updates.
+
+- Batch Size: Smaller batch sizes were tested to improve generalization, though larger batches were considered for efficiency.
+
+### Training Approach
+The model was trained using backpropagation with an adaptive optimizer (e.g., Adam) to adjust learning rates dynamically. The dataset was split into training and validation sets to monitor performance and adjust hyperparameters accordingly.
+
+### Justification for Choices
+- Neural networks were chosen for their ability to model complex relationships in ADHD-related data.
+
+- Hyperparameter tuning was necessary to optimize learning and prevent overfitting due to dataset imbalance.
+
+- The training approach focused on generalization, incorporating techniques to ensure the model performs well beyond the training data.
 
 ---
 
