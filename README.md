@@ -1,6 +1,13 @@
 # WiDS Datathon 2025: Unraveling the Mysteries of the Female Brain (Sex Patterns in ADHD) 🧠
 
 ## Team 
+## Overview  
+This repository contains our submission for the WiDS Datathon 2025, a global data science competition focused on advancing women's brain health research. The data utilized in this challenge was provided by the Healthy Brain Network and the Reproducible Brain Charts.  
+
+This project is part of the **Break Through Tech AI Program** (UCLA site), which empowers students to apply AI/ML techniques to real-world challenges.  
+
+---
+
 This team conists of 4 undergraduate students, all of whom are apart of the Break Through Tech 2024-2025 UCLA cohort.
 
 **Team members:** Louise Marie Maganto, Souzen Khan, Zuleyka Urieta, Min Aung Paing
@@ -12,12 +19,10 @@ This team conists of 4 undergraduate students, all of whom are apart of the Brea
 ## Project Highlights
 The team tried the divide and conquer approach, trying four different machine learning models Neural Network, Random Forest, Logistic Regression and Extreme Graident Boosting to find the best model in predict the ADHD diagnosis and sex based on the data. Each model had the same data frames and it was up to each person's to hypertune their models. To address the imbalance dataset of sex and ADHD diagnosis random undersampling and random over sampling were used. Logistic Regression and Random Forest did not produce as great of results based on the leaderboard scores and model evaulation scores as such the focus shifted to Neural Networks. The data frame with random over sampling scored higher in accuracy when hypertuning the neural network data frame.
 
-## Overview  
-This repository contains our submission for the WiDS Datathon 2025, a global data science competition focused on advancing women's brain health research. The data utilized in this challenge was provided by the Healthy Brain Network and the Reproducible Brain Charts.  
+## Setup and Execution 
+If you wish to run any of our models yourself, simply download the ipynb file of the corresponding model. You can run the file locally through Google Colab, Visual Studio, or your preferred IDE. You will need to have the necessary files downloaded as well which can be found in this Github Repo in the folder "Supplemental files."
 
-This project is part of the **Break Through Tech AI Program** (UCLA site), which empowers students to apply AI/ML techniques to real-world challenges.  
-
-## Challenge Objective  
+## Project Overview and Challenge Objective  
 The goal of this competition is to develop a **multi-outcome machine learning model** that predicts:  
 1. **ADHD diagnosis** (1 = Yes, 0 = No)  
 2. **Sex** (1 = Female, 0 = Male)  
@@ -98,6 +103,12 @@ Visualizations were created to understand the data distribution. These visualiza
 
 ![image](https://github.com/user-attachments/assets/a88d5f40-b724-4e60-81f4-a33e24248e5f)
 ![image](https://github.com/user-attachments/assets/f6e7b2bc-d760-419f-9668-936f8009e84a)
+
+---
+
+## Results & Key Findings
+
+From our analysis, the type of model best suited for this data set and the problem is the neural network model, achieving 70%+ accuracy.
 
 ## Acknowledgments  
 - **WiDS Datathon** organizers and sponsors  
