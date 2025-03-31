@@ -108,7 +108,15 @@ Visualizations were created to understand the data distribution. These visualiza
 
 ## Results & Key Findings
 
-From our analysis, the type of model best suited for this data set and the problem is the neural network model, achieving 70%+ accuracy.
+From our analysis, the type of model best suited for this data set and the problem is the neural network model, achieving 70%+ accuracy. The neural network model predicted that 91.78% of the participants making up the test data set are female, and 99.34% have ADHD. Among those with ADHD, 91.72% are female. With a decently high accuracy, we believe that our model predicts both gender and ADHD diagnosis fairly well. 
+
+## Impact Narrative
+
+Identifying brain patterns associated with ADHD can enhance research and clinical care by improving diagnostic accuracy, enabling early detection, and guiding personalized treatment strategies- especially for underrepresented groups. Machine learning models can help uncover differences in brain activity, connectivity, and structure in individuals with ADHD, leading to objective biomarkers. These insights can be used to refine interventions such as medication adjustments and behavioral therapies, ultimately improving patient outcomes and advancing our understanding of ADHD as a neurodevelopmental disorder.
+
+## Next Steps & Future Improvements
+
+The primary limitation of our model is the uneven dataset used for both training and testing, which resulted in overfitting and underfitting. As a result, the model’s real-world accuracy may be lower than expected. A potential improvement would be to further refine the neural network using a larger, more balanced dataset to enhance prediction accuracy and reveal underlying patterns associated with the target variables.
 
 ## Acknowledgments  
 - **WiDS Datathon** organizers and sponsors  
@@ -117,5 +125,3 @@ From our analysis, the type of model best suited for this data set and the probl
 - **Our tutor, Rebecca Aurelia Dsouza,** for mentorship
 - **The National Break Through Tech AI Team** 
 ---
-
-
