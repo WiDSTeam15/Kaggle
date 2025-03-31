@@ -135,7 +135,7 @@ Visualizations were created to understand the data distribution. These visualiza
 
 ## Results & Key Findings
 
-From our analysis, the type of model best suited for this data set and the problem is the neural network model, achieving 70%+ accuracy. The neural network model predicted that 91.78% of the participants making up the test data set are female, and 99.34% have ADHD. Among those with ADHD, 91.72% are female. With a decently high accuracy, we believe that our model predicts both gender and ADHD diagnosis fairly well. 
+From our analysis, the type of model best suited for this data set and the problem is the neural network model, achieving an accuracy of approximately 72%. The neural network model predicted that 91.78% of the participants making up the test data set are female, and 99.34% have ADHD. Among those with ADHD, 91.72% are female. With a decently high accuracy, we believe that our model predicts both gender and ADHD diagnosis fairly well. 
 
 ## Impact Narrative
 
